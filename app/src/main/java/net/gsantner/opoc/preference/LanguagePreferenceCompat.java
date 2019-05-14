@@ -147,7 +147,7 @@ public class LanguagePreferenceCompat extends ListPreference {
     private String summarizeLocale(final Locale locale, final String localeAndroidCode) {
         String country = locale.getDisplayCountry(locale);
         String language = locale.getDisplayLanguage(locale);
-        String ret = locale.getDisplayLanguage(Locale.ENGLISH)
+        String ret = locale.getDisplayLanguage(Locale.KOREAN)
                 + " (" + language.substring(0, 1).toUpperCase(Locale.getDefault()) + language.substring(1)
                 + ((!country.isEmpty() && !country.toLowerCase(Locale.getDefault()).equals(language.toLowerCase(Locale.getDefault()))) ? (", " + country) : "")
                 + ")";
