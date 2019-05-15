@@ -56,7 +56,7 @@
     <string name="contributors">Contributors</string>
     <string name="changelog">Changelog</string>
     <string name="more">More</string>
-    <string name="open_source_licenses">Open Source Licenses</string>
+    <string name="open_source_licenses">오픈 소스 라이센스</string>
     <string name="rate_the_app">Rate this app</string>
     <string name="translate">Translate</string>
     <string name="help_this_app">More information and help about this app</string>
@@ -65,126 +65,126 @@
     <string name="android_contribution_guide">Android contribution guide</string>
 
     <!-- Settings -->
-    <string name="pref_title__settings">Settings</string>
-    <string name="pref_title__desktop">Desktop</string>
-    <string name="pref_title__dock">Dock</string>
-    <string name="pref_title__app_drawer">App Drawer</string>
-    <string name="pref_title__appearance">Appearance</string>
-    <string name="pref_title__gestures">Gestures</string>
-    <string name="pref_title__behavior">Behavior</string>
+    <string name="pref_title__settings">설정</string>
+    <string name="pref_title__desktop">데스크톱</string>
+    <string name="pref_title__dock">도크</string>
+    <string name="pref_title__app_drawer">앱 드로어</string>
+    <string name="pref_title__appearance">외형</string>
+    <string name="pref_title__gestures">제스처</string>
+    <string name="pref_title__behavior">행동</string>
     <string name="pref_title__miscellaneous">Miscellaneous</string>
     <string name="pref_title__about">About</string>
 
-    <string name="pref_title__size">Size</string>
-    <string name="pref_title__style">Style</string>
-    <string name="pref_title__color">Colors</string>
-    <string name="pref_title__icons">Icons</string>
-    <string name="pref_title__search_bar">Search Bar</string>
-    <string name="pref_title__interfaces">Interfaces</string>
+    <string name="pref_title__size">사이즈</string>
+    <string name="pref_title__style">스타일</string>
+    <string name="pref_title__color">색 변경</string>
+    <string name="pref_title__icons">아이콘들</string>
+    <string name="pref_title__search_bar">검색 바</string>
+    <string name="pref_title__interfaces">인터페이스</string>
     <string name="pref_title__inputs">Inputs</string>
     <string name="pref_title__feels">Feels</string>
     <string name="pref_title__others">Others</string>
-    <string name="pref_title__animations">Animations</string>
-    <string name="pref_title__debug">Debug</string>
+    <string name="pref_title__animations">애니메이션</string>
+    <string name="pref_title__debug">디버그</string>
 
-    <string name="pref_title__desktop_indicator_style">Indicator Style</string>
-    <string name="pref_summary__minibar">Configure the order and visibility of minibar items.</string>
-    <string name="pref_title__desktop_orientation">Desktop orientation.</string>
+    <string name="pref_title__desktop_indicator_style">인디케이터 스타일</string>
+    <string name="pref_summary__minibar">미니 바 항목의 순서 및 시각성 구성</string>
+    <string name="pref_title__desktop_orientation">바탕화면 방향</string>
     <string name="pref_title__desktop_show_grid">Show Grid</string>
-    <string name="pref_summary__desktop_show_grid">Show the guiding grid when dragging items.</string>
-    <string name="pref_title__desktop_fullscreen">Fullscreen</string>
-    <string name="pref_summary__desktop_fullscreen">Enable fullscreen for the desktop.</string>
-    <string name="pref_title__desktop_show_position_indicator">Position Indicator</string>
-    <string name="pref_summary__desktop_show_position_indicator">Show the page indicator below the desktop.</string>
+    <string name="pref_summary__desktop_show_grid">아이템을 끌어 당길때 안내 그리드를 표시하십시오.</string>
+    <string name="pref_title__desktop_fullscreen">전체화면</string>
+    <string name="pref_summary__desktop_fullscreen">바탕 화면에 전체 화면을 사용하도록 설정하십시오.</string>
+    <string name="pref_title__desktop_show_position_indicator">포지션 인디케이터</string>
+    <string name="pref_summary__desktop_show_position_indicator">바탕 화면 아래에 페이지 인디케이터를 표시하십시오.</string>
     <string name="pref_title__desktop_show_label">Show Labels</string>
-    <string name="pref_summary__desktop_show_label">Show item labels below their icons.</string>
-    <string name="pref_title__desktop_background_color">Background</string>
-    <string name="pref_title__desktop_folder_color">Folder Background</string>
-    <string name="pref_title__desktop_folder_color_text">Folder Text</string>
-    <string name="pref_title__desktop_inset_color">System Bars</string>
+    <string name="pref_summary__desktop_show_label">아이콘 아래에 아이템 레이블을 표시하십시오.</string>
+    <string name="pref_title__desktop_background_color">배경</string>
+    <string name="pref_title__desktop_folder_color">폴더 배경</string>
+    <string name="pref_title__desktop_folder_color_text">폴더 텍스트</string>
+    <string name="pref_title__desktop_inset_color">시스템 바</string>
 
-    <string name="pref_title__search_bar_enable">Search Bar</string>
-    <string name="pref_summary__search_bar_enable">Display a search bar above the desktop.</string>
+    <string name="pref_title__search_bar_enable">검색 바</string>
+    <string name="pref_summary__search_bar_enable">바탕 화면 위에 검색 표시줄 표시</string>
     <string name="pref_title__search_bar_base_uri">Search URI</string>
-    <string name="pref_summary__search_bar_base_uri">Set the URI used for web searches.</string>
-    <string name="pref_dialog__search_bar_base_uri">Enter the URI that should be used for web searches. The tag {query} can be used as
-      placeholder for the search query, in case no placeholder is used the search query will be appended at the end of the URI.</string>
-    <string name="pref_title__search_bar_force_browser">Force browser search</string>
-    <string name="pref_summary__search_bar_force_browser">Always use the browser for online searches.</string>
-    <string name="pref_title__search_bar_show_hidden_apps">Show hidden apps</string>
-    <string name="pref_summary__search_bar_show_hidden_apps">Include hidden apps in the search results.</string>
+    <string name="pref_summary__search_bar_base_uri">웹 검색에 사용되는 URI를 설정하십시오.</string>
+    <string name="pref_dialog__search_bar_base_uri">웹 검색에 사용할 URI를 입력하십시오. {query} 태그를 다음과 같이 사용할 수 있음
+검색 쿼리의 자리 표시자, 자리 표시자가 사용되지 않는 경우 검색 쿼리는 URI 끝에 추가된다.</string>
+    <string name="pref_title__search_bar_force_browser">강제 브라우저 검색</string>
+    <string name="pref_summary__search_bar_force_browser">온라인 검색에는 항상 브라우저를 사용하십시오.</string>
+    <string name="pref_title__search_bar_show_hidden_apps">숨겨진 앱 표시</string>
+    <string name="pref_summary__search_bar_show_hidden_apps">검색 결과에 숨겨진 앱을 포함하십시오.</string>
 
-    <string name="pref_title__date_bar">Date Bar</string>
-    <string name="pref_title__date_bar_text_color">Text Color</string>
-    <string name="pref_title__date_bar_date_format">Date Format</string>
+    <string name="pref_title__date_bar">데이터 바</string>
+    <string name="pref_title__date_bar_text_color">텍스트 컬러</string>
+    <string name="pref_title__date_bar_date_format">데이터 포멧</string>
     <string name="pref_title__date_bar_date_format_custom_1">Custom Format: Line 1</string>
     <string name="pref_title__date_bar_date_format_custom_2">Custom Format: Line 2</string>
 
     <string name="pref_title__dock_show_label">Show Labels</string>
-    <string name="pref_summary__dock_show_label">Show item labels below their icons.</string>
-    <string name="pref_title__dock_background_color">Background</string>
+    <string name="pref_summary__dock_show_label">아이콘 아래에 항목 레이블을 표시하십시오.</string>
+    <string name="pref_title__dock_background_color">배경</string>
 
-    <string name="pref_title__drawer_style">Style</string>
-    <string name="pref_summary__drawer_style">Choose between a paged and vertical app drawer.</string>
-    <string name="pref_title__hide_apps">Hide Apps</string>
-    <string name="pref_summary__hide_apps">Hide selected apps from launcher.</string>
-    <string name="pref_title__drawer_show_card_view">Card View</string>
-    <string name="pref_summary__drawer_show_card_view">Show a card view above the drawer background.</string>
-    <string name="pref_title__drawer_remember_position">Remember Last Page</string>
-    <string name="pref_summary__drawer_remember_position">Keep track of the current app drawer page.</string>
-    <string name="pref_title__drawer_show_position_indicator">Position Indicator</string>
-    <string name="pref_summary__drawer_show_position_indicator">Show the page indicator or scrollbar depending on the style.</string>
+    <string name="pref_title__drawer_style">스타일</string>
+    <string name="pref_summary__drawer_style">페이징된 앱 드로어와 수직 앱 드로어 중 하나를 선택하십시오.</string>
+    <string name="pref_title__hide_apps">앱 숨기기</string>
+    <string name="pref_summary__hide_apps">선택한 앱을 런처에서 숨기기.</string>
+    <string name="pref_title__drawer_show_card_view">카드 뷰</string>
+    <string name="pref_summary__drawer_show_card_view">드로어 배경 위에 카드 뷰를 표시하십시오.</string>
+    <string name="pref_title__drawer_remember_position">마지막 페이지 기억</string>
+    <string name="pref_summary__drawer_remember_position">현재 앱 드로어 페이지를 추적하십시오.</string>
+    <string name="pref_title__drawer_show_position_indicator">위치 인디케이터</string>
+    <string name="pref_summary__drawer_show_position_indicator">스타일에 따라 페이지 표시기 또는 스크롤 바를 표시하십시오.</string>
     <string name="pref_title__drawer_show_label">Show Labels</string>
-    <string name="pref_summary__drawer_show_label">Show item labels below their icons.</string>
-    <string name="pref_title__drawer_background_color">Background</string>
-    <string name="pref_title__drawer_card_color">Card View</string>
-    <string name="pref_title__drawer_label_color">Label</string>
-    <string name="pref_title__drawer_fast_scroll_color">Scrollbar</string>
-    <string name="pref_title__drawer_label_font_size">Label Font Size</string>
+    <string name="pref_summary__drawer_show_label">아이콘 아래에 항목 레이블을 표시하십시오.</string>
+    <string name="pref_title__drawer_background_color">배경</string>
+    <string name="pref_title__drawer_card_color">카드 뷰</string>
+    <string name="pref_title__drawer_label_color">라벨</string>
+    <string name="pref_title__drawer_fast_scroll_color">스크롤 바</string>
+    <string name="pref_title__drawer_label_font_size">라벨 폰트 사이즈</string>
 
-    <string name="pref_title__gesture_feedback">Gesture Feedback</string>
-    <string name="pref_summary__gesture_feedback">Get feedback when long pressing an item on the desktop.</string>
-    <string name="pref_title__gesture_quick_swipe">Quick Swipe Drawer</string>
-    <string name="pref_summary__gesture_quick_swipe">Swipe upwards on the dock to open the app drawer.</string>
-    <string name="pref_title__gesture_double_tap">Double Tap</string>
-    <string name="pref_title__gesture_swipe_up">Swipe Upwards</string>
-    <string name="pref_title__gesture_swipe_down">Swipe Downwards</string>
+    <string name="pref_title__gesture_feedback">제스쳐 피드백</string>
+    <string name="pref_summary__gesture_feedback">바탕 화면에서 항목을 오래 누를 때 피드백을 받으십시오.</string>
+    <string name="pref_title__gesture_quick_swipe">퀵 스와이프 드로어</string>
+    <string name="pref_summary__gesture_quick_swipe">앱 서랍을 열려면 독에서 위쪽으로 터치하세요.</string>
+    <string name="pref_title__gesture_double_tap">더블 탭</string>
+    <string name="pref_title__gesture_swipe_up">위쪽으로 스와이프</string>
+    <string name="pref_title__gesture_swipe_down">아래 쪽으로 스와이프</string>
     <string name="pref_title__gesture_pinch">Pinch</string>
     <string name="pref_title__gesture_unpinch">Unpinch</string>
 
-    <string name="pref_title__theme">Theme</string>
-    <string name="pref_summary__theme">Set the theme for the entire app.</string>
-    <string name="pref_title__primary_color">Primary Color</string>
-    <string name="pref_summary__primary_color">Set the primary color for the app.</string>
-    <string name="pref_title__icon_size">Icon Size</string>
-    <string name="pref_summary__icon_size">Size of all app icons.</string>
-    <string name="pref_title__icon_pack">Icon Pack</string>
-    <string name="pref_summary__icon_pack">Select an installed icon pack.</string>
-    <string name="pref_title__animation_speed_modifier">Animation Speed</string>
-    <string name="pref_summary__animation_speed_modifier">Modify the overall speed of animations</string>
+    <string name="pref_title__theme">주제</string>
+    <string name="pref_summary__theme">앱 전체에 대한 테마를 설정하십시오.</string>
+    <string name="pref_title__primary_color">기본 색상</string>
+    <string name="pref_summary__primary_color">앱의 기본 색상을 설정하십시오.</string>
+    <string name="pref_title__icon_size">아이콘 사이즈</string>
+    <string name="pref_summary__icon_size">모든 앱 아이콘의 크기.</string>
+    <string name="pref_title__icon_pack">아이콘 팩</string>
+    <string name="pref_summary__icon_pack">설치된 아이콘 팩을 선택하십시오.</string>
+    <string name="pref_title__animation_speed_modifier">애니메이션 스피드</string>
+    <string name="pref_summary__animation_speed_modifier">애니메이션의 전체 속도 수정</string>
 
-    <string name="pref_title__language">Language</string>
-    <string name="pref_summary__language">Change language of this app. Restart app for changes to take effect</string>
-    <string name="pref_title__backup">Backup</string>
-    <string name="pref_summary__backup">Backup your desktop and settings.</string>
-    <string name="pref_title__restore">Restore</string>
-    <string name="pref_summary__restore">Restore your desktop and settings.</string>
-    <string name="pref_title__reset_settings">Reset Settings</string>
-    <string name="pref_summary__reset_settings">Delete the app settings.</string>
-    <string name="pref_title__reset_database">Reset Database</string>
-    <string name="pref_summary__reset_database">Remove all items from the launcher.</string>
-    <string name="pref_title__restart">Restart</string>
-    <string name="pref_summary__restart">Restart the launcher.</string>
+    <string name="pref_title__language">언어</string>
+    <string name="pref_summary__language">이 앱의 언어를 변경하십시오. 변경 내용을 적용하려면 앱 다시 시작</string>
+    <string name="pref_title__backup">백업</string>
+    <string name="pref_summary__backup">바탕 화면 및 설정을 백업하십시오.</string>
+    <string name="pref_title__restore">복원</string>
+    <string name="pref_summary__restore">바탕 화면 및 설정을 복원하십시오.</string>
+    <string name="pref_title__reset_settings">셋팅 리셋</string>
+    <string name="pref_summary__reset_settings">앱 설정을 삭제하십시오.</string>
+    <string name="pref_title__reset_database">데이터베이스 재설정</string>
+    <string name="pref_summary__reset_database">런처에서 모든 항목을 제거하십시오.</string>
+    <string name="pref_title__restart">재시작</string>
+    <string name="pref_summary__restart">런처를 재시작 합니다.</string>
 
-    <string name="vertical_scroll_drawer">Vertical</string>
-    <string name="horizontal_paged_drawer">Paged</string>
+    <string name="vertical_scroll_drawer">수직</string>
+    <string name="horizontal_paged_drawer">paged</string>
 
-    <string name="indicator_mode_dots">Dots</string>
-    <string name="indicator_mode_lines">Lines</string>
+    <string name="indicator_mode_dots">도트</string>
+    <string name="indicator_mode_lines">라인</string>
 
-    <string name="orientation_mode_portrait">Portrait</string>
-    <string name="orientation_mode_rotate">Rotate</string>
-    <string name="orientation_mode_landscape">Landscape</string>
+    <string name="orientation_mode_portrait">초상화</string>
+    <string name="orientation_mode_rotate">회전하다</string>
+    <string name="orientation_mode_landscape">풍경.</string>
 
     <string name="none">None</string>
     <string name="app">App</string>
@@ -194,29 +194,29 @@
     <string name="black">Black</string>
 
     <!-- Dialogs -->
-    <string name="please_wait">Searching for installed apps. Please wait.</string>
-    <string name="are_you_sure">Are you sure? This action cannot be undone unless you have a backup.</string>
-    <string name="device_admin_title">Device Admin Required</string>
-    <string name="device_admin_summary">OpenLauncher requires the Device Administration permission to lock your screen. Please enable it in the settings to use this feature.</string>
-    <string name="select_app">Select App</string>
-    <string name="select_wallpaper">Select Wallpaper</string>
-    <string name="select_icon_pack">Select Icon Pack</string>
-    <string name="volume_level_ringtone">Ringtone</string>
-    <string name="volume_level_notification">Notification</string>
-    <string name="volume_level_system">System</string>
-    <string name="volume_level_media">Media</string>
+    <string name="please_wait">설치된 앱 검색 중. 기다려 주세요.</string>
+    <string name="are_you_sure">확실합니까?? 백업이 없으면 이 작업을 취소할 수 없습니다.</string>
+    <string name="device_admin_title">장치 관리자 필요</string>
+    <string name="device_admin_summary">OpenLauncher는 화면을 잠그기 위해 장치 관리 권한이 필요하다. 이 기능을 사용하려면 설정에서 이 기능을 사용하도록 설정하십시오.</string>
+    <string name="select_app">앱 선택</string>
+    <string name="select_wallpaper">월페이퍼 선택</string>
+    <string name="select_icon_pack">아이콘 팩 선택</string>
+    <string name="volume_level_ringtone">벨소리</string>
+    <string name="volume_level_notification">알림</string>
+    <string name="volume_level_system">시스템</string>
+    <string name="volume_level_media">미디어</string>
 
     <!-- Other -->
-    <string name="columns">Columns</string>
-    <string name="rows">Rows</string>
+    <string name="columns">열</string>
+    <string name="rows">행</string>
     <string name="on">On</string>
     <string name="off">Off</string>
-    <string name="search_hint">Search</string>
-    <string name="bad_format">Bad Format</string>
-    <string name="version">Version</string>
+    <string name="search_hint">검색</string>
+    <string name="bad_format">잘못된 형식</string>
+    <string name="version">버전</string>
     <string name="enable">Enable</string>
     <string name="placeholder">Hello world!</string>
-    <string name="custom">Custom</string>
+    <string name="custom">커스텀</string>
     <string name="default_folder">Unnamed</string>
     <string name="default_icons">Default</string>
 
@@ -233,11 +233,11 @@
     <string name="widget">Widget</string>
 
     <!-- Toasts -->
-    <string name="toast_not_enough_space">Not enough space.</string>
-    <string name="toast_app_uninstalled">App uninstalled.</string>
-    <string name="toast_device_admin_required">Please enable device administration.</string>
-    <string name="toast_backup_success">Done.</string>
-    <string name="toast_backup_error">Something went wrong.</string>
-    <string name="toast_icon_pack_error">Unable to grab the icon without READ_EXTERNAL_STORAGE permission.</string>
+    <string name="toast_not_enough_space">공간이 충분하지 않다.</string>
+    <string name="toast_app_uninstalled">앱이 제거됨</string>
+    <string name="toast_device_admin_required">장치 관리를 사용하도록 설정하십시오.</string>
+    <string name="toast_backup_success">완료</string>
+    <string name="toast_backup_error">뭔가 잘못되었다.</string>
+    <string name="toast_icon_pack_error">READ_EXTERNAL_STORAGE 권한 없이 아이콘을 잡을 수 없음.</string>
 
 </resources>
