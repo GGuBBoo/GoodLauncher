@@ -1,12 +1,12 @@
-BennyKok
-Started OpenLauncher project
-https://github.com/openlauncherteam/openlauncher
+이현호
 
-Gregor Santner (gsantner)
-Austrian software developer and Open Source enthusiast
-https://gsantner.net/?project=memetastic
+https://github.com/GGuBBoo
 
-dkanada
-Android Development
-https://github.com/dkanada
+조범준
+
+https://github.com/torauma06
+
+송영인
+
+https://github.com/
 
