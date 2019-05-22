@@ -231,6 +231,10 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
         return getString(R.string.pref_key__theme, "1");
     }
 
+    public String getMode() {
+        return getString(R.string.pref_key__mode, "1");
+    }
+
     public int getPrimaryColor() {
         return getInt(R.string.pref_key__primary_color, _context.getResources().getColor(R.color.colorPrimary));
     }
@@ -346,4 +350,5 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
         // MUST be committed
         _prefApp.edit().putBoolean(_context.getString(R.string.pref_key__first_start), value).commit();
     }
+
 }

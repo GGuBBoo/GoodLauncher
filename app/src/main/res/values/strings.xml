@@ -154,6 +154,8 @@
 
     <string name="pref_title__theme">Theme</string>
     <string name="pref_summary__theme">Set the theme for the entire app.</string>
+    <string name="pref_title__mode">Mode</string>
+    <string name="pref_summary__mode">Set the Mode for the entire app.</string>
     <string name="pref_title__primary_color">Primary Color</string>
     <string name="pref_summary__primary_color">Set the primary color for the app.</string>
     <string name="pref_title__icon_size">Icon Size</string>
@@ -192,6 +194,11 @@
     <string name="light">Light</string>
     <string name="dark">Dark</string>
     <string name="black">Black</string>
+
+    <string name="normal">normal</string>
+    <string name="study">study</string>
+    <string name="music">music</string>
+    <string name="game">game</string>
 
     <!-- Dialogs -->
     <string name="please_wait">Searching for installed apps. Please wait.</string>

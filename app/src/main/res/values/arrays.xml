@@ -40,6 +40,13 @@
         <item>@string/vertical_scroll_drawer</item>
     </string-array>
 
+    <string-array name="entries__mode" translatable="false">
+        <item>@string/normal</item>
+        <item>@string/study</item>
+        <item>@string/music</item>
+        <item>@string/game</item>
+    </string-array>
+
     <string-array name="entries__theme" translatable="false">
         <item>@string/light</item>
         <item>@string/dark</item>
@@ -63,6 +70,13 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+
+    <string-array name="values__zero_to_three" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <string-array name="values__zero_to_four" translatable="false">
