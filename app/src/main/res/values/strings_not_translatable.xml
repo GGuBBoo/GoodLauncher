@@ -67,11 +67,13 @@
     <string name="pref_key__gesture_unpinch" translatable="false">pref_key__gesture_unpinch</string>
 
     <string name="pref_key__theme" translatable="false">pref_key__theme</string>
-    <string name="pref_key__mode" translatable="false">pref_key__mode</string>
+
     <string name="pref_key__primary_color" translatable="false">pref_key__primary_color</string>
     <string name="pref_key__icon_size" translatable="false">pref_key__icon_size</string>
     <string name="pref_key__icon_pack" translatable="false">pref_key__icon_pack</string>
     <string name="pref_key__overall_animation_speed_modifier" translatable="false">pref_key__overall_animation_speed_modifier</string>
+
+    <string name="pref_key__mode_select" translatable="false">pref_key__mode_select</string>
 
     <string name="pref_key__language" translatable="false">pref_key__language</string>
     <string name="pref_key__backup" translatable="false">pref_key__backup</string>
@@ -84,6 +86,7 @@
     <string name="pref_key__cat_dock" translatable="false">pref_key__cat_dock</string>
     <string name="pref_key__cat_app_drawer" translatable="false">pref_key__cat_app_drawer</string>
     <string name="pref_key__cat_appearance" translatable="false">pref_key__cat_appearance</string>
+    <string name="pref_key__cat_mode" translatable="false">pref_key__mode</string>
     <string name="pref_key__cat_behavior" translatable="false">pref_key__cat_behavior</string>
     <string name="pref_key__cat_miscellaneous" translatable="false">pref_key__cat_miscellaneous</string>
     <string name="pref_key__about" translatable="false">pref_key__about</string>

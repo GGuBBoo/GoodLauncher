@@ -41,10 +41,10 @@
     </string-array>
 
     <string-array name="entries__mode" translatable="false">
-        <item>@string/normal</item>
-        <item>@string/study</item>
-        <item>@string/music</item>
-        <item>@string/game</item>
+        <item>@string/mode_normal</item>
+        <item>@string/mode_study</item>
+        <item>@string/mode_music</item>
+        <item>@string/mode_game</item>
     </string-array>
 
     <string-array name="entries__theme" translatable="false">

@@ -10,6 +10,7 @@ import com.benny.openlauncher.AppObject;
 import com.benny.openlauncher.R;
 import com.benny.openlauncher.manager.Setup;
 import com.benny.openlauncher.widget.AppDrawerController;
+import com.benny.openlauncher.mode.ModeController;
 import com.benny.openlauncher.widget.PagerIndicator;
 
 import net.gsantner.opoc.preference.SharedPreferencesPropertyBackend;
@@ -151,6 +152,10 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
         return getIntOfStringPref(R.string.pref_key__drawer_style, AppDrawerController.Mode.GRID);
     }
 
+    public String getMode() {
+        return getString(R.string.pref_key__mode_select, ModeController.Mode.NORMAL);
+    }
+
     public boolean getDrawerShowCardView() {
         return getBool(R.string.pref_key__drawer_show_card_view, true);
     }
@@ -229,10 +234,6 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
 
     public String getTheme() {
         return getString(R.string.pref_key__theme, "1");
-    }
-
-    public String getMode() {
-        return getString(R.string.pref_key__mode, "1");
     }
 
     public int getPrimaryColor() {

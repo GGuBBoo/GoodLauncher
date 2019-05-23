@@ -27,6 +27,7 @@ import com.benny.openlauncher.util.LauncherAction;
 import com.benny.openlauncher.util.Tool;
 import com.benny.openlauncher.viewutil.DialogHelper;
 import com.benny.openlauncher.widget.AppDrawerController;
+import com.benny.openlauncher.mode.ModeController;
 import com.nononsenseapps.filepicker.FilePickerActivity;
 
 import net.gsantner.opoc.preference.GsPreferenceFragmentCompat;
@@ -92,6 +93,23 @@ public class SettingsMasterFragment extends GsPreferenceFragmentCompat<AppSettin
             default:
                 updateSummary(R.string.pref_key__cat_app_drawer, String.format("%s: %s", getString(R.string.pref_title__style), getString(R.string.horizontal_paged_drawer)));
                 break;
+        }
+
+        switch (_as.getMode()) {
+            case "1":
+                updateSummary(R.string.pref_key__cat_mode, String.format("%s: %s", getString(R.string.pref_title__mode), getString(R.string.mode_study)));
+                break;
+            case "2":
+                updateSummary(R.string.pref_key__cat_mode, String.format("%s: %s", getString(R.string.pref_title__mode), getString(R.string.mode_music)));
+                break;
+            case "3":
+                updateSummary(R.string.pref_key__cat_mode, String.format("%s: %s", getString(R.string.pref_title__mode), getString(R.string.mode_game)));
+                break;
+            case "0":
+            default:
+                updateSummary(R.string.pref_key__cat_mode, String.format("%s: %s", getString(R.string.pref_title__mode), getString(R.string.mode_normal)));
+                break;
+
         }
 
         for (int resId : new ArrayList<>(Arrays.asList(R.string.pref_key__gesture_double_tap, R.string.pref_key__gesture_swipe_up, R.string.pref_key__gesture_swipe_down, R.string.pref_key__gesture_pinch, R.string.pref_key__gesture_unpinch))) {

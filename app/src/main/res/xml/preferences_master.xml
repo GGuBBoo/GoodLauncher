@@ -335,14 +335,6 @@
             android:title="@string/pref_title__appearance">
 
             <ListPreference
-                android:defaultValue="0"
-                android:entries="@array/entries__mode"
-                android:entryValues="@array/values__zero_to_three"
-                android:key="@string/pref_key__mode"
-                android:summary="@string/pref_summary__mode"
-                android:title="@string/pref_title__mode" />
-
-            <ListPreference
                 android:defaultValue="1"
                 android:entries="@array/entries__theme"
                 android:entryValues="@array/values__zero_to_two"
@@ -386,6 +378,20 @@
 
             </PreferenceCategory>
 
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_changemod"
+            android:key="@string/pref_key__cat_mode"
+            android:title="@string/pref_title__mode">
+
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/entries__mode"
+                android:entryValues="@array/values__zero_to_three"
+                android:key="@string/pref_key__mode_select"
+                android:summary="@string/pref_summary__mode_select"
+                android:title="@string/pref_title__mode_select" />
 
         </PreferenceScreen>
 
