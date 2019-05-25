@@ -164,13 +164,13 @@
     <string name="pref_title__animation_speed_modifier">Animation Speed</string>
     <string name="pref_summary__animation_speed_modifier">Modify the overall speed of animations</string>
 
-    <string name="mode_normal">normal</string>
-    <string name="mode_study">study</string>
-    <string name="mode_music">music</string>
-    <string name="mode_game">game</string>
+    <string name="mode_normal">기본</string>
+    <string name="mode_study">공부</string>
+    <string name="mode_music">음악</string>
+    <string name="mode_game">게임</string>
 
-    <string name="pref_title__mode_select">Mode</string>
-    <string name="pref_summary__mode_select">Set the Mode for the entire app.</string>
+    <string name="pref_title__mode_select">모드</string>
+    <string name="pref_summary__mode_select">런처의 테마를 바꿉니다.</string>
 
     <string name="pref_title__language">Language</string>
     <string name="pref_summary__language">Change language of this app. Restart app for changes to take effect</string>
