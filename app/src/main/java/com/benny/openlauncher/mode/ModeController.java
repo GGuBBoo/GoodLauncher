@@ -21,7 +21,6 @@ public class ModeController extends AppCompatActivity {
         public static final String STUDY = "1";
         public static final String MUSIC = "2";
         public static final String GAME = "3";
-
     }
 
     @Override
@@ -42,7 +41,6 @@ public class ModeController extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
     }
-
 
     @Override
     protected void onResume() {

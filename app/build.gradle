@@ -120,6 +120,10 @@ dependencies {
         exclude group: 'com.android.support'
     }
 
+    debugImplementation "com.github.brianPlummer:tinydancer:0.1.2"
+    releaseImplementation "com.github.brianPlummer:tinydancer-noop:0.1.2"
+    testImplementation "com.github.brianPlummer:tinydancer-noop:0.1.2"
+
     // Tools
     implementation "com.jakewharton:butterknife:${version_library_butterknife}"
 

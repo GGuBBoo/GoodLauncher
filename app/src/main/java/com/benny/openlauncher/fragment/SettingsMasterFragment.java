@@ -4,11 +4,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 
 import com.afollestad.materialdialogs.DialogAction;
@@ -18,6 +20,7 @@ import com.benny.openlauncher.activity.HideAppsActivity;
 import com.benny.openlauncher.activity.HomeActivity;
 import com.benny.openlauncher.activity.MoreInfoActivity;
 import com.benny.openlauncher.activity.SettingsActivity;
+import com.benny.openlauncher.mode.ModeGame;
 import com.benny.openlauncher.model.App;
 import com.benny.openlauncher.util.AppManager;
 import com.benny.openlauncher.util.AppSettings;
@@ -28,6 +31,7 @@ import com.benny.openlauncher.util.Tool;
 import com.benny.openlauncher.viewutil.DialogHelper;
 import com.benny.openlauncher.widget.AppDrawerController;
 import com.benny.openlauncher.mode.ModeController;
+import com.codemonkeylabs.fpslibrary.TinyDancer;
 import com.nononsenseapps.filepicker.FilePickerActivity;
 
 import net.gsantner.opoc.preference.GsPreferenceFragmentCompat;
@@ -44,6 +48,7 @@ public class SettingsMasterFragment extends GsPreferenceFragmentCompat<AppSettin
     protected AppSettings _as;
     private int activityRetVal;
     private Integer iconColor;
+    private Object ModeGame;
 
     @Override
     public int getPreferenceResourceForInflation() {
@@ -140,6 +145,16 @@ public class SettingsMasterFragment extends GsPreferenceFragmentCompat<AppSettin
     public Boolean onPreferenceClicked(Preference preference, String key, int keyResId) {
         HomeActivity homeActivity = HomeActivity._launcher;
         switch (keyResId) {
+            case R.string.pref_key__mode_showFPS: {
+
+                TinyDancer.create()
+                        .redFlagPercentage(.1f) // set red indicator for 10%....different from default
+                        .startingXPosition(200)
+                        .startingYPosition(600)
+                        .show(homeActivity);
+
+                return true;
+            }
             case R.string.pref_key__about: {
                 startActivity(new Intent(getActivity(), MoreInfoActivity.class));
                 return true;

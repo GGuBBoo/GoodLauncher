@@ -393,6 +393,37 @@
                 android:summary="@string/pref_summary__mode_select"
                 android:title="@string/pref_title__mode_select" />
 
+
+            <PreferenceCategory android:title="mode setting">
+                <PreferenceScreen
+                    android:key="@string/mode_study"
+                    android:summary="@string/mode_study_summary"
+                    android:title="@string/mode_study">
+
+                </PreferenceScreen>
+
+                <PreferenceScreen
+                    android:key="@string/mode_music"
+                    android:summary="@string/mode_music_summary"
+                    android:title="@string/mode_music">
+
+                </PreferenceScreen>
+
+                <PreferenceScreen
+                    android:key="@string/mode_game"
+                    android:summary="@string/mode_game_summary"
+                    android:title="@string/mode_game">
+
+                    <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:key="@string/pref_key__mode_showFPS"
+                        android:title="@string/mode_game__title_show_fps"
+                        android:summary="@string/mode_game__summary_show_fps" />
+
+                </PreferenceScreen>
+
+            </PreferenceCategory>
+
         </PreferenceScreen>
 
     </PreferenceCategory>
