@@ -32,6 +32,19 @@
     <string name="minibar_title__show_notifications">Show Notifications</string>
     <string name="minibar_summary__show_notifications">Expand the notification view at the top of the screen.</string>
 
+    <string name="mode_normal">normal</string>
+    <string name="mode_study">study</string>
+    <string name="mode_study_summary">Setting of study</string>
+    <string name="mode_music">music</string>
+    <string name="mode_music_summary">Setting of music</string>
+    <string name="mode_game">game</string>
+    <string name="mode_game_summary">Setting of game</string>
+
+    <string name="pref_title__mode_select">Mode</string>
+    <string name="pref_summary__mode_select">Set the Mode for the entire app.</string>
+    <string name="mode_game__title_show_fps">Show fps</string>
+    <string name="mode_game__summary_show_fps">Show fps on the screen</string>
+
     <!-- About -->
     <string name="about_libs">Open Source Libraries</string>
     <string name="about_rate">Rate</string>
@@ -163,14 +176,6 @@
     <string name="pref_summary__icon_pack">Select an installed icon pack.</string>
     <string name="pref_title__animation_speed_modifier">Animation Speed</string>
     <string name="pref_summary__animation_speed_modifier">Modify the overall speed of animations</string>
-
-    <string name="mode_normal">기본</string>
-    <string name="mode_study">공부</string>
-    <string name="mode_music">음악</string>
-    <string name="mode_game">게임</string>
-
-    <string name="pref_title__mode_select">모드</string>
-    <string name="pref_summary__mode_select">런처의 테마를 바꿉니다.</string>
 
     <string name="pref_title__language">Language</string>
     <string name="pref_summary__language">Change language of this app. Restart app for changes to take effect</string>

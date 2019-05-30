@@ -256,6 +256,18 @@
     <string name="indicator_mode_dots">점</string>
     <string name="pref_title__others">그 외의 항목</string>
     <string name="pref_title__drawer_show_label">이름 표시</string>
+    <string name="pref_title__mode">모드</string>
+    <string name="pref_title__mode_select">모드</string>
+    <string name="pref_summary__mode_select">런처의 모드를 설정합니다.</string>
+    <string name="mode_game__title_show_fps">fps 표시</string>
+    <string name="mode_game__summary_show_fps">화면에 fps를 표시합니다</string>
+    <string name="mode_game_summary">게임 모드의 설정을 엽니다</string>
+    <string name="mode_music_summary">음악 모드의 설정을 엽니다</string>
+    <string name="mode_study_summary">공부 모드의 설정을 엽니다</string>
+    <string name="mode_normal">기본</string>
+    <string name="mode_study">공부</string>
+    <string name="mode_music">음악</string>
+    <string name="mode_game">게임</string>
 
 
 </resources>
