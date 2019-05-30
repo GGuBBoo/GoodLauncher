@@ -46,7 +46,6 @@
             app:msb_recyclerView="@id/recycler_view"
 
             android:overScrollMode="never"
-            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/searchBar"
             app:layout_constraintBottom_toTopOf="@+id/navigation_frame"
