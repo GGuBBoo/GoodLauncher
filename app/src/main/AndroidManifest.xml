@@ -16,7 +16,7 @@
         android:name="com.benny.openlauncher.AppObject"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="GoodLauncher"
         android:largeHeap="false"
         android:launchMode="singleTask"
         android:stateNotNeeded="true"
@@ -30,7 +30,7 @@
         <activity
             android:name="com.benny.openlauncher.activity.OnBoardActivity"
             android:clearTaskOnLaunch="true"
-            android:label="@string/app_name"
+            android:label="GoodLauncher"
             android:theme="@style/IntroTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
         </activity>
         <activity
             android:name="com.benny.openlauncher.activity.HomeActivity"
-            android:label="@string/app_name"
+            android:label="GoodLauncher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -66,7 +66,7 @@
             android:theme="@style/NormalActivity.Light" />
         <activity
             android:name="com.benny.openlauncher.activity.HideAppsActivity"
-            android:label="@string/app_name"
+            android:label="GoodLauncher"
             android:theme="@style/NormalActivity.Light" />
         <activity
             android:name="com.benny.openlauncher.activity.MoreInfoActivity"
@@ -78,7 +78,7 @@
         </activity>
         <activity
             android:name="com.nononsenseapps.filepicker.FilePickerActivity"
-            android:label="@string/app_name"
+            android:label="GoodLauncher"
             android:theme="@style/FilePickerTheme">
             <intent-filter>
                 <action android:name="android.intent.action.GET_CONTENT" />
