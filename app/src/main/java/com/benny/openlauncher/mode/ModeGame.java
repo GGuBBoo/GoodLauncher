@@ -1,6 +1,7 @@
 package com.benny.openlauncher.mode;
 
-public class ModeGame {
+import android.view.View;
 
+import com.benny.openlauncher.activity.HomeActivity;
 
-}
+public class ModeGame {}
