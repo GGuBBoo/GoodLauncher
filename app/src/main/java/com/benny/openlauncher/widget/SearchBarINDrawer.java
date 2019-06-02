@@ -126,7 +126,7 @@ public class SearchBarINDrawer extends FrameLayout {
         switchButtonParams.gravity = Gravity.START | Gravity.CENTER_VERTICAL;
 
         if (isInEditMode()) return;
-        _icon = new CircleDrawable(getContext(), getResources().getDrawable(R.drawable.ic_search_light_24dp), Color.BLACK);
+        _icon = new CircleDrawable(getContext(), getResources().getDrawable(R.drawable.ic_brush_black_24dp), Color.BLACK);
         _searchButton = new AppCompatImageView(getContext());
         _searchButton.setImageDrawable(_icon);
         _searchButton.setOnClickListener(new OnClickListener() {
@@ -158,10 +158,10 @@ public class SearchBarINDrawer extends FrameLayout {
 
         _searchInput = new AppCompatEditText(getContext());
         _searchInput.setBackground(null);
-        _searchInput.setBackgroundColor(Color.BLACK);
+        _searchInput.setBackgroundColor(Color.WHITE);
         _searchInput.setHint(R.string.search_hint);
-        _searchInput.setHintTextColor(Color.WHITE);
-        _searchInput.setTextColor(Color.WHITE);
+        _searchInput.setHintTextColor(Color.BLACK);
+        _searchInput.setTextColor(Color.BLACK);
         _searchInput.setSingleLine();
         _searchInput.addTextChangedListener(new TextWatcher() {
             @Override
@@ -212,7 +212,7 @@ public class SearchBarINDrawer extends FrameLayout {
                     final App app = apps.get(i);
                     items.add(new IconLabelItem(app.getIcon(), app.getLabel())
                             .withIconSize(getContext(), 50)
-                            .withTextColor(Color.WHITE)
+                            .withTextColor(Color.BLACK)
                             .withIsAppLauncher(true)
                             .withIconPadding(getContext(), 8)
                             .withOnClickAnimate(false)
@@ -269,7 +269,7 @@ public class SearchBarINDrawer extends FrameLayout {
     private void collapseInternal() {
         if (_callback != null) {
             _callback.onCollapse();
-        }
+        }   
         _icon.setIcon(getResources().getDrawable(R.drawable.ic_search_light_24dp));
         Tool.visibleViews(ANIM_TIME, _searchClock);
         Tool.goneViews(ANIM_TIME, _searchCardContainer, _searchRecycler, _switchButton);

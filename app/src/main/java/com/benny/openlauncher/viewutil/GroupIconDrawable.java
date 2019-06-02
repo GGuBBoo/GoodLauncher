@@ -82,12 +82,12 @@ public class GroupIconDrawable extends Drawable {
         _padding32 = b * (PADDING32_KOEF - PADDING31_KOEF);
 
         _paintInnerCircle = new Paint();
-        _paintInnerCircle.setColor(Color.WHITE);
+        _paintInnerCircle.setColor(Color.BLACK);
         _paintInnerCircle.setAlpha(150);
         _paintInnerCircle.setAntiAlias(true);
 
         _paintOuterCircle = new Paint();
-        _paintOuterCircle.setColor(Color.WHITE);
+        _paintOuterCircle.setColor(Color.BLACK);
         _paintOuterCircle.setAntiAlias(true);
         _paintOuterCircle.setFlags(Paint.ANTI_ALIAS_FLAG);
         _paintOuterCircle.setStyle(Paint.Style.STROKE);

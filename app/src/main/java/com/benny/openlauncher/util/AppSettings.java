@@ -93,7 +93,7 @@ public class AppSettings extends SharedPreferencesPropertyBackend {
     }
 
     public int getDesktopDateTextColor() {
-        return getInt(R.string.pref_key__date_bar_date_text_color, Color.WHITE);
+        return getInt(R.string.pref_key__date_bar_date_text_color, Color.BLACK);
     }
 
     public int getDesktopBackgroundColor() {

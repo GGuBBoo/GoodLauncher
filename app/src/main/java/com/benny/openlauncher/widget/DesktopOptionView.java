@@ -193,7 +193,7 @@ public class DesktopOptionView extends FrameLayout {
         return new IconLabelItem(getContext(), icon, label)
                 .withIdentifier(label)
                 .withOnClickListener(null)
-                .withTextColor(Color.WHITE)
+                .withTextColor(Color.BLACK)
                 .withIconPadding(getContext(), 4)
                 .withIconGravity(Gravity.TOP)
                 .withWidth(width)

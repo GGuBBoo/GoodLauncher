@@ -41,7 +41,7 @@ public final class PagerIndicator extends View implements ViewPager.OnPageChange
         super(context, attrs);
         setWillNotDraw(false);
         _pad = Tool.dp2px(4);
-        _paint.setColor(Color.WHITE);
+        _paint.setColor(Color.BLACK);
         _paint.setStrokeWidth(Tool.dp2px(4));
         _paint.setAntiAlias(true);
     }

@@ -126,7 +126,7 @@ public class SearchBar extends FrameLayout {
         switchButtonParams.gravity = Gravity.START | Gravity.CENTER_VERTICAL;
 
         if (isInEditMode()) return;
-        _icon = new CircleDrawable(getContext(), getResources().getDrawable(R.drawable.ic_search_light_24dp), Color.BLACK);
+        _icon = new CircleDrawable(getContext(), getResources().getDrawable(R.drawable.ic_brush_black_24dp), Color.BLACK);
         _searchButton = new AppCompatImageView(getContext());
         _searchButton.setImageDrawable(_icon);
         _searchButton.setOnClickListener(new OnClickListener() {
@@ -139,6 +139,7 @@ public class SearchBar extends FrameLayout {
                 _expanded = !_expanded;
                 if (_expanded) {
                     expandInternal();
+
                 } else {
                     collapseInternal();
                 }
@@ -268,7 +269,7 @@ public class SearchBar extends FrameLayout {
         if (_callback != null) {
             _callback.onCollapse();
         }
-        _icon.setIcon(getResources().getDrawable(R.drawable.ic_search_light_24dp));
+        _icon.setIcon(getResources().getDrawable(R.drawable.ic_brush_black_24dp));
         Tool.visibleViews(ANIM_TIME, _searchClock);
         Tool.goneViews(ANIM_TIME, _searchCardContainer, _searchRecycler, _switchButton);
         _searchInput.getText().clear();
@@ -278,7 +279,7 @@ public class SearchBar extends FrameLayout {
         if (_callback != null) {
             _callback.onExpand();
         }
-        _icon.setIcon(getResources().getDrawable(R.drawable.ic_clear_white_24dp));
+        _icon.setIcon(getResources().getDrawable(R.drawable.ic_clear_black_24dp));
         Tool.visibleViews(ANIM_TIME, _searchCardContainer, _searchRecycler, _switchButton);
         Tool.goneViews(ANIM_TIME, _searchClock);
     }

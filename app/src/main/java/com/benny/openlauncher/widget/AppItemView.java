@@ -47,7 +47,7 @@ public class AppItemView extends View implements Drawable.Callback {
 
         _labelHeight = Tool.dp2px(14);
         _textPaint.setTextSize(Tool.sp2px(12));
-        _textPaint.setColor(Color.WHITE);
+        _textPaint.setColor(Color.BLACK);
     }
 
     public Drawable getIcon() {
@@ -213,7 +213,7 @@ public class AppItemView extends View implements Drawable.Callback {
 
         public Builder setActionItem(Item item) {
             _view.setLabel(item.getLabel());
-            _view.setIcon(ContextCompat.getDrawable(Setup.appContext(), R.drawable.ic_apps_white_48dp));
+            _view.setIcon(ContextCompat.getDrawable(Setup.appContext(), R.drawable.ic_import_contacts_black_24dp));
             _view.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View view) {
