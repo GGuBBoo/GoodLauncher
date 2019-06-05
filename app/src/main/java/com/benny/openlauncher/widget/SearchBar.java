@@ -159,8 +159,8 @@ public class SearchBar extends FrameLayout {
         _searchInput = new AppCompatEditText(getContext());
         _searchInput.setBackground(null);
         _searchInput.setHint(R.string.search_hint);
-        _searchInput.setHintTextColor(Color.WHITE);
-        _searchInput.setTextColor(Color.WHITE);
+        _searchInput.setHintTextColor(Color.BLACK);
+        _searchInput.setTextColor(Color.BLACK);
         _searchInput.setSingleLine();
         _searchInput.addTextChangedListener(new TextWatcher() {
             @Override
@@ -211,7 +211,7 @@ public class SearchBar extends FrameLayout {
                     final App app = apps.get(i);
                     items.add(new IconLabelItem(app.getIcon(), app.getLabel())
                             .withIconSize(getContext(), 50)
-                            .withTextColor(Color.WHITE)
+                            .withTextColor(Color.BLACK)
                             .withIsAppLauncher(true)
                             .withIconPadding(getContext(), 8)
                             .withOnClickAnimate(false)
@@ -285,7 +285,7 @@ public class SearchBar extends FrameLayout {
     }
 
     private void updateSwitchIcon() {
-        _switchButton.setImageResource(Setup.appSettings().getSearchUseGrid() ? R.drawable.ic_view_grid_white_24dp : R.drawable.ic_view_list_white_24dp);
+        _switchButton.setImageResource(Setup.appSettings().getSearchUseGrid() ? R.drawable.ic_view_grid_black_24dp : R.drawable.ic_view_list_black_24dp);
     }
 
     private void updateRecyclerViewLayoutManager() {

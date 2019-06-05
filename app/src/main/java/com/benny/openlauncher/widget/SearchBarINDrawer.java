@@ -270,7 +270,7 @@ public class SearchBarINDrawer extends FrameLayout {
         if (_callback != null) {
             _callback.onCollapse();
         }   
-        _icon.setIcon(getResources().getDrawable(R.drawable.ic_search_light_24dp));
+        _icon.setIcon(getResources().getDrawable(R.drawable.ic_brush_white_24dp));
         Tool.visibleViews(ANIM_TIME, _searchClock);
         Tool.goneViews(ANIM_TIME, _searchCardContainer, _searchRecycler, _switchButton);
         _searchInput.getText().clear();
