@@ -213,7 +213,7 @@ public class AppItemView extends View implements Drawable.Callback {
 
         public Builder setActionItem(Item item) {
             _view.setLabel(item.getLabel());
-            _view.setIcon(ContextCompat.getDrawable(Setup.appContext(), R.drawable.ic_import_contacts_black_24dp));
+            _view.setIcon(ContextCompat.getDrawable(Setup.appContext(), R.drawable.ic_open_book));
             _view.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View view) {
