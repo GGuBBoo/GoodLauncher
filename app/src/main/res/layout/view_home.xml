@@ -9,8 +9,9 @@
         android:id="@+id/BackgroundChange"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_background"
-        >
+        android:background="@drawable/ic_background">
+        <!--배경화면 출처 : 하영준 작가 블로그 (http://blog.naver.com/PostList.nhn?blogId=hhj0215)-->
+
         <com.benny.openlauncher.widget.StatusView
             android:id="@+id/status_frame"
             android:layout_width="match_parent"
