@@ -8,5 +8,5 @@
     android:fontFamily="sans-serif-light"
     android:gravity="start"
     android:lineSpacingMultiplier="1.05"
-    android:textColor="#fff"
+    android:textColor="#000000"
     android:textSize="32sp" />
