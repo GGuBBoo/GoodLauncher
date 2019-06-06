@@ -18,9 +18,9 @@
 
     <style name="NormalActivity.Light" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
 
         <item name="android:windowBackground">@color/Light.Background</item>
         <item name="android:textColorPrimary">@color/Light.TextColor</item>
@@ -30,9 +30,9 @@
 
     <style name="NormalActivity.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
 
         <item name="android:windowBackground">@color/Dark.Background</item>
         <item name="android:textColorPrimary">@color/Dark.TextColor</item>
@@ -62,15 +62,15 @@
         <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
         <item name="android:windowBackground">@null</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherDarkYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
     </style>
 
     <style name="FilePickerTheme" parent="NNF_BaseTheme">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherDarkYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
     </style>
 
     <!--Calendar-->
