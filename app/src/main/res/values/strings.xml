@@ -255,4 +255,8 @@
     <string name="toast_backup_error">Something went wrong.</string>
     <string name="toast_icon_pack_error">Unable to grab the icon without READ_EXTERNAL_STORAGE permission.</string>
 
+    <!--Calendar-->
+    <string name="GoodLauncherCalendar">GoodLauncherCalendar</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
 </resources>

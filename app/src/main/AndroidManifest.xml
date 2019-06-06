@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.benny.openlauncher">
 
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="18" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -21,7 +22,8 @@
         android:launchMode="singleTask"
         android:stateNotNeeded="true"
         android:taskAffinity=""
-        android:theme="@style/Home.Light">
+        android:theme="@style/Home.Light"
+        android:allowBackup="true">
 
         <meta-data
             android:name="android.max_aspect"
@@ -104,6 +106,15 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name="com.benny.openlauncher.widget.MonthCalendarWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.provider"
@@ -113,5 +124,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+
     </application>
 </manifest>

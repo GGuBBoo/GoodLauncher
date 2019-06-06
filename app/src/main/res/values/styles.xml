@@ -6,9 +6,9 @@
         <item name="android:colorPrimaryDark"  tools:targetApi="21">@android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
 
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
 
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:textColorPrimary">@color/Light.TextColor</item>
@@ -40,11 +40,11 @@
         <item name="android:textColorSecondary">@color/Dark.TextColorSecondary</item>
     </style>
 
-    <style name="NormalActivity.Black" parent="Theme.AppCompat.NoActionBar">
+    <style name="NormalActivity.GoodLauncherBlack" parent="Theme.AppCompat.NoActionBar">
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/GoodLauncherDarkYellow</item>
+        <item name="colorPrimaryDark">@color/GoodLauncherDarkYellow</item>
+        <item name="colorAccent">@color/GoodLauncherDarkYellow</item>
 
         <item name="android:windowBackground">@color/Black.Background</item>
         <item name="android:textColorPrimary">@color/Dark.TextColor</item>
@@ -71,6 +71,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Calendar-->
+    <style name="CalendarCell">
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/foreground_semi</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>
