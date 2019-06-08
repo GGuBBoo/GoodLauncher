@@ -360,10 +360,10 @@ public class SearchBar extends FrameLayout {
     }
 
     public enum Mode {
-        DateAll(1, new SimpleDateFormat("MMMM dd'\n'EEEE',' yyyy", Locale.getDefault())),
-        DateNoYearAndTime(2, new SimpleDateFormat("MMMM dd'\n'HH':'mm", Locale.getDefault())),
-        DateAllAndTime(3, new SimpleDateFormat("MMMM dd',' yyyy'\n'HH':'mm", Locale.getDefault())),
-        TimeAndDateAll(4, new SimpleDateFormat("HH':'mm'\n'MMMM dd',' yyyy", Locale.getDefault())),
+        DateAll(1, new SimpleDateFormat("MMMM dd일'\n'EEEE',' yyyy년", Locale.getDefault())),
+        DateNoYearAndTime(2, new SimpleDateFormat("MMMM dd일'\n'HH':'mm", Locale.getDefault())),
+        DateAllAndTime(3, new SimpleDateFormat("MMMM dd일',' yyyy'\n'HH':'mm", Locale.getDefault())),
+        TimeAndDateAll(4, new SimpleDateFormat("HH':'mm'\n'MMMM dd일',' yyyy년", Locale.getDefault())),
         Custom(0, null);
 
         SimpleDateFormat sdf;
