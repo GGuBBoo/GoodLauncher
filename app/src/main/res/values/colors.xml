@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#cccc00</color>
-    <color name="colorPrimaryDark">#FFFF00</color>
-    <color name="colorAccent">#cccc00</color>
+    <color name="colorPrimary">#1892cc</color>
+    <color name="colorPrimaryDark">#d6552e</color>
+    <color name="colorAccent">#1892cc</color>
 
     <color name="Light.Background">#f9f9f9</color>
     <color name="Light.TextColor">#616161</color>
@@ -31,8 +31,8 @@
     <color name="foreground_today">#111</color>
     <color name="background_today">#fff</color>
 
-    <color name="GoodLauncherDarkYellow">#CCCC00</color>
-    <color name="GoodLauncherYellow">#FFFF00</color>
+    <color name="GoodLauncherDarkYellow">#1892cc</color>
+    <color name="GoodLauncherYellow">#1892cc</color>
 
     <color name="folder_background_default_color">#ff3d3d3d</color>
 </resources>
