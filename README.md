@@ -35,6 +35,7 @@ OpenLauncher를 기반으로 하여 여러가지 테마를 가진 런처를 만�
    * 배경화면 출처 : 하영준 작가 블로그 (http://blog.naver.com/PostList.nhn?blogId=hhj0215)
    * 위젯 깃허브 : https://github.com/romannurik/Android-MonthCalendarWidget
    * OpenLauncher : https://github.com/OpenLauncherTeam/openlauncher
+   * 프레임 출력 깃허브 : https://github.com/torauma06/TinyDancer
 
 ### 라이센스
 
