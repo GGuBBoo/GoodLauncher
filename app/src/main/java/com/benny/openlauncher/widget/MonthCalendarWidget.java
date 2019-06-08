@@ -149,7 +149,7 @@ public class MonthCalendarWidget extends AppWidgetProvider {
             thisMonth = cal.get(Calendar.MONTH);
         }
         rv.setTextViewText(R.id.month_label, DateFormat.format(
-                shortMonthName ? "MMM yy" : "MMMM yyyy", cal));
+                shortMonthName ? "yy MMM" : "yyyy년 MMMM", cal));
 
         if (!mini) {
             cal.set(Calendar.DAY_OF_MONTH, 1);
